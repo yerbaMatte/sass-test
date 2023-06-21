@@ -72,10 +72,11 @@ a {
   display: block;
   padding: 0.75rem;
   border: 1px solid #ddd;
+  border-radius: 5px;
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
 }
 .card .card-title {
-  font-size: 1rem;
+  font-size: 2rem;
   padding-bottom: 0.75rem;
   font-weight: bold;
 }

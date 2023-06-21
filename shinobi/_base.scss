@@ -29,43 +29,6 @@ img {
   max-width: 100%;
 }
 
-h1 {
-  color: red;
-}
-
-h1 {
+.test {
   color: $primary;
-  margin-bottom: $base-margin;
-}
-
-a {
-  color: $secondary;
-}
-
-.error {
-  color: $error;
-  border-color: $error;
-  border-style: dashed;
-  margin: $base-margin;
-  padding: $base-padding;
-  border-radius: $base-border-radius;
-  border-width: $base-border-thickness;
-}
-
-.notification {
-  color: $info;
-  border-style: solid;
-  border-color: $info;
-  margin: $base-margin;
-  padding: $base-padding;
-  border-radius: $base-border-radius;
-  border-width: $base-border-thickness;
-}
-
-#glig {
-  border-style: none;
-  font-size: 42px;
-  background-color: $error;
-  border-radius: $base-border-radius;
-  padding: $base-padding;
 }

@@ -1,0 +1,21 @@
+// reusable collections of css properties
+@mixin btn() {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: $base-padding, $base-padding * 2;
+  border-radius: $base-border-radius;
+}
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn();
+    background-color: $val;
+  }
+  .btn-outlied-#{$key} {
+    @include btn();
+    background-color: white;
+    border: $base-border-thickness solid $val;
+  }
+}
